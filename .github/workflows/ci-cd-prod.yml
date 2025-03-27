@@ -33,5 +33,5 @@ jobs:
         host: ${{ secrets.PROD_HOST }}
         username: ${{ secrets.PROD_USERNAME }}
         port: ${{ secrets.PROD_PORT }}
-        password: "${{ secrets.c }}"
+        password: "${{ secrets.PROD_PASSWORD }}"
         script: "cd ~/services/whatisthat && ./deploy-app.sh"
